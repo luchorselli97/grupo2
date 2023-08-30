@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const RegistroUsuario = () => {
+const RegistroDeUsuarios = () => {
   const [usuario, setUsuario] = useState();
   const [contrasena, setContraseña] = useState();
 
@@ -28,9 +28,10 @@ const RegistroUsuario = () => {
         <label>Contraseña:</label>
         <input className="bloque" type="password" value={contrasena} onChange={handleContraseñaChange} />
       </div>
+      <br />
       <button onClick={handleRegistro}>Registrarse</button>
     </div>
   );
 };
 
-export default RegistroUsuario;
+export default RegistroDeUsuarios;
