@@ -37,3 +37,13 @@ input {
   color : white;
 }
 
+#link {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#presentacion {
+  text-align: center;
+  padding-top: 30px;
+}
+
